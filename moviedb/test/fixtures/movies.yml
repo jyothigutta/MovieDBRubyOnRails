@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  movietitle: MyString
+  description: MyString
+  rating: 1.5
+  director: MyString
+  language: MyString
+
+two:
+  movietitle: MyString
+  description: MyString
+  rating: 1.5
+  director: MyString
+  language: MyString

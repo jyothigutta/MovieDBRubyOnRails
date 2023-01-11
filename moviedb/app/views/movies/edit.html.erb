@@ -1,0 +1,12 @@
+<h1>Editing movie</h1>
+
+<div class="movies">
+<%= render "form", movie: @movie %>
+</div>
+
+<br>
+
+<div>
+  <%= link_to "Show this movie", @movie %> |
+  <%= link_to "Back to movies", movies_path %>
+</div>

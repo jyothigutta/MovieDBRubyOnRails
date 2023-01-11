@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(48deg, #f04265, #4462fa);
+    height: 300px;
+  }
+ 
+
+  h1 {        
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;     
+    margin-left: 20px;
+    opacity: 0.7;
+  }
+
+  .movie-container, .movies {
+    height: 320px;
+    width: 450px;
+    background: #D8A6FF;
+    padding-top: 50px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;        
+    box-shadow: 5px 4px 50px rgba(243, 241, 241, 0.2);
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    
+  }
+
+  .a {
+    text-decoration: none;
+  }
+
+  .items{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .movie-container:hover, .movies:hover {
+    width:550px;  
+
+  }
